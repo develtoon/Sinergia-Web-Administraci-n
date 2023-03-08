@@ -1,0 +1,60 @@
+.c-filter
+    padding 15px 20px
+    border 2px solid $color-secondary-blue
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius 3px
+
+
+.state
+    width 15px
+    height 15px
+    border-radius 2px
+    &--color-1
+        background-color $color-state-1
+    &--color-2
+        background-color $color-state-2
+    &--color-3
+        background-color $color-state-3
+    &--color-4
+        background-color $color-state-4
+    &--color-5
+        background-color $color-state-5
+    &--color-6
+        background-color $color-state-6
+    &--color-7
+        background-color $color-state-7
+    &--color-8
+        background-color $color-state-8
+    &--color-9
+        background-color $color-state-9
+    &--color-10
+        background-color $color-state-10
+    &--color-11
+        background-color $color-state-11
+    &--color-12
+        background-color $color-state-12
+
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
